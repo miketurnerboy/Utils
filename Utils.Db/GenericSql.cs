@@ -13,7 +13,7 @@ namespace Utils.Db
 
         public GenericSql()
         {
-            _Conexion = new SqlConnection(ConfigurationManager.ConnectionStrings["FacturacionDataBase"].ConnectionString);
+            _Conexion = new SqlConnection(ConfigurationManager.ConnectionStrings["DATABASE"].ConnectionString);
             _Conexion.Open();
         }
 
